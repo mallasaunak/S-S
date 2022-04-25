@@ -1,0 +1,257 @@
+.scopeHeading
+{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.line3::after{
+  content: "";
+  position: absolute;
+  /* left: 14rem; */
+  width: 5rem;
+  border-bottom: 5px solid  #b2cb20;
+  display: block;
+ 
+  
+}
+.scopeOfWork {
+  border-bottom: 1px solid #dadada;
+  display: inline-block;
+  margin-bottom : 2rem;
+  
+}
+.scopeHeading{
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.scopeOfWork.darkcolor {
+  font-size: 3rem;
+ margin-top: 5rem;
+  margin-left: 35%;
+  margin-right: 35%;
+  font-family: var(--font-family-sans-serif);
+  
+}
+.scopeOfWork-container1{
+  display: flex;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  /* padding: 25px 20px; */
+  position: relative;
+}
+.apicontainer{
+  /* background-color: red; */
+  height:15rem;
+  width: 55rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 5rem;
+  cursor: pointer;
+  border-radius:5px;
+}
+.apicontainer:hover .api-icon{
+  color:white;
+  transition:0.5s ease-in-out;
+
+}
+.apicontainer:hover{
+  background-color:#b2cb20;
+  color:white;
+  transition:0.5s ease-in-out;
+}
+
+.sfw-title{
+  text-align: center;
+  font-size: 1.25rem; 
+  margin-bottom: 1.5rem;
+}
+
+.sfw-logo {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  /* background-color:red; */
+  overflow: hidden;
+  margin-top:1rem;
+}
+
+.api-icon{
+  color:#b2cb20;
+  cursor: pointer;
+  size: 5rem;
+}
+
+
+.sfw-body{
+  text-align: center;
+  font-size: 15px;
+  color: #a5a5a5;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.apicontainer:hover .sfw-body{
+  color:white ;
+  transition:0.5s ease-in-out;
+
+}
+.payment{
+  
+  height:15rem;
+  width: 55rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 5rem;
+  cursor: pointer;
+  border-radius:5px;
+}
+.payment:hover .payment-icon{
+  color:white;
+  transition:0.5s ease-in-out;
+
+}
+.payment:hover{
+  color:white;
+  background: #4fb8aa;
+  transition:0.5s ease-in-out;
+
+}
+.payment-icon{
+  color:#4fb8aa;
+  cursor: pointer;
+
+}
+.payment:hover .sfw-body{
+  color:white ;
+  transition:0.5s ease-in-out;
+
+}
+
+
+.business{
+  height:15rem;
+  width: 50rem;
+  margin-right: 5rem;
+  cursor: pointer;
+  border-radius:5px;
+  transition:0.5s ease-in-out;
+}
+.business:hover .business-icon{
+  color:white;
+  transition:0.5s ease-in-out;
+ 
+}
+.business:hover{
+  color:white;
+  background: #e84455;
+  transition:0.5 ease-in-out;
+ 
+}
+.business-icon{
+  color:#e84455;
+  cursor: pointer;
+
+}
+.business:hover .sfw-body{
+  color:white ;
+  transition:0.5s ease-in-out;
+}
+.scopeOfWork-container2{
+  display: flex;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  padding: 25px 20px;
+  position: relative;
+  
+}
+.solution{
+  height:15rem;
+  width: 50rem;
+  border-radius:5px;
+  transition:0.5s ease-in-out;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 5rem;
+}
+.solution:hover .solution-icon{
+  color:white;
+  transition:0.5s ease-in-out;
+ 
+}
+.solution:hover{
+  color:white;
+  background: #e84455;
+  transition:0.5 ease-in-out;
+ 
+}
+.solution-icon{
+  color:#e84455;
+  cursor: pointer;
+
+}
+.solution:hover .sfw-body{
+  color:white ;
+  transition:0.5s ease-in-out;
+}
+.branding{
+  height:15rem;
+  width: 50rem;
+  border-radius:5px;
+  transition:0.5s ease-in-out;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 5rem;
+}
+.branding:hover .branding-icon{
+  color:white;
+  transition:0.5s ease-in-out;
+ 
+}
+.branding:hover{
+  color:white;
+  background: #b2cb20;
+  transition:0.5 ease-in-out;
+ 
+}
+.branding-icon{
+  color:#b2cb20;
+  cursor: pointer;
+
+}
+.branding:hover .sfw-body{
+  color:white ;
+  transition:0.5s ease-in-out;
+}
+.responsive{  
+  height:15rem;
+  width: 50rem;
+  border-radius:5px;
+  transition:0.5s ease-in-out;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 5rem;
+}
+.responsive:hover .responsive-icon{
+  color:white;
+  transition:0.5s ease-in-out;
+ 
+}
+.responsive:hover{
+  color:white;
+  background:#4fb8aa;
+  transition:0.5 ease-in-out;
+ 
+}
+.responsive-icon{
+  color:#4fb8aa;
+  cursor: pointer;
+
+}
+.responsive:hover .sfw-body{
+  color:white ;
+  transition:0.5s ease-in-out;
+}

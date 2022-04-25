@@ -1,0 +1,23 @@
+.workTitle{
+  /* background-color: rebeccapurple; */
+  text-align: center;
+  color: #384141;
+  margin-top:5rem;
+}
+.menu-tab{
+  justify-content:center;
+  /* background-color: rebeccapurple; */
+  gap: 1rem;
+  margin-top:3rem;
+  
+}
+.btn-menu{
+  border-radius:20px;
+  border: 1px solid #e84455;
+    color: #fff;
+    background: #e84455;
+    font-family: 'Open Sans', sans-serif;
+    direction: ltr;
+    font-size:bold;
+    width: 8rem;
+}

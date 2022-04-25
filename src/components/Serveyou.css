@@ -1,0 +1,37 @@
+#parallax-bg{
+  height:20rem;
+  background-image: url(http://shadesnshadows.com.np/images/parallax1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 53.28px;
+}
+.col-md-12.text-center.wow.bounceIn {
+  margin-top: 5rem;
+  color: white;
+}
+.btn_common {
+  color: white;
+  background-color: transparent;
+  padding: 12px 2.5rem;
+  display: inline-block;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-border-radius: 36px;
+  border-radius: 36px;
+  position: relative;
+  z-index: 1;
+  border: 1px solid white;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.btn_common:hover{
+  background-color:white;
+  color:black;
+}
